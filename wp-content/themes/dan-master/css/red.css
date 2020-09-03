@@ -1,0 +1,91 @@
+#red{
+	position: fixed;
+    margin-top: 300px;
+	z-index: 100;
+	left: 0;
+}
+#red div{
+	margin-top: 6px;
+}
+#Home i{
+	background: #181A18;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	width: 55px;
+	transition: all .4s ease;
+}
+#Home i:hover{
+	background: #000;
+	padding: 10px 80px;
+}
+#facebook a{
+	background: #3b5998;
+	padding: 10px 25px;
+	color: #fff;
+	text-decoration: none;
+	width: 55px;
+	transition: all .4s ease;
+}
+#facebook a:hover{
+	background: #000;
+	padding: 10px 80px;
+}
+#youtube a{
+	background: #bb0000;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	width: 55px;
+	transition: all .4s ease;
+}
+#youtube a:hover{
+	background: #000;
+	padding: 10px 80px;
+}
+#twitter a{
+	background: #55acee;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	width: 55px;
+	transition: all .4s ease;
+}
+#twitter a:hover{
+	background: #000;
+	padding: 10px 80px;
+}
+#correo a{
+	background: #e95950;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	width: 55px;
+	transition: all .4s ease;
+}
+#correo a:hover{
+	background: #000;
+	padding: 10px 80px;
+}
+@media all and (max-width: 968px) {
+    #red{
+  	position: fixed;
+    margin-top: 320px;
+    margin-bottom: inherit;
+	z-index: 100;
+	left: 0;
+
+}
+}
+@media all and (max-width: 500px) {
+    #red{
+  	position: fixed;
+    margin-top: 300px;
+    margin-bottom: inherit;
+	z-index: 100;
+	left: 0;
+         
+
+}
+}
+

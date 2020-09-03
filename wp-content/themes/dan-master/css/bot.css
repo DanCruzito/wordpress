@@ -1,0 +1,142 @@
+/* body{
+    background:#848488;
+} */
+.ventana{
+    background:rgb(217, 217, 228);
+    width: 20%;
+    height: 90%;
+    color: rgba(255,255,255,1);
+    font-size:16px;
+    text-align:center;
+    /*padding:33px;*/
+    min-height:250px;
+    border-radius:22px;
+    float: right;
+    position: fixed;
+ /*   left:50%;
+    top:50%;*/
+    display:none;
+    /*margin-left: 100px;*/
+    margin-left: 1050px;
+
+    /*margin-top: 0px;*/
+    transition: all .4s ease;
+    z-index: 150;
+
+}
+#cerrar{
+    position: absolute;
+    right: 3px;
+    top: 1px;
+}
+/* header{
+    background: rgna(0,153,204,1);
+    width:1000px;
+    height:120px;
+    margin:auto;
+    border-radius: 22px 22px 0 0;
+} */
+/*#caja{
+    position: fixed;
+    margin-bottom: 20px;
+}*/
+#boton{
+    font-family: verdana;
+    background-color: #0CB824;
+    margin-top: 590px;
+    margin-left: 1200px;
+    font-style: italic;
+    font-size: 10px;
+    /*padding-top: 100px;*/
+    position: fixed;
+    -moz-border-radius:7px;
+    -webkit-border-radius:9px;
+}
+#boton a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#boton:hover{
+    background-color:#0DDD2A;
+    /*background-color: */
+}
+ 
+.ventana{
+    background:rgb(217, 217, 228);
+    width: 43%;
+    height: 430px;
+    color: rgba(255,255,255,1);
+    font-size:16px;
+    text-align:center;
+    /*padding:33px;*/
+    min-height:250px;
+    border-radius:22px;
+    position: fixed;
+ /*   left:50%;
+    top:50%;*/
+    display:none;
+    /*margin-left: 100px;*/
+    margin-left: 56%;
+    margin-top: 80px;
+
+}
+#cerrar{
+    position: absolute;
+    right: 3px;
+    top: 1px;
+}
+
+#boton{
+    font-family: verdana;
+    background-color: #0CB824;
+    margin-top: 590px;
+    margin-left: 80%;
+    font-style: italic;
+    font-size: 10px;
+    /*padding-top: 100px;*/
+    position: fixed;
+    -moz-border-radius:7px;
+    -webkit-border-radius:9px;
+}
+#boton a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#boton:hover{
+    background-color:#0DDD2A;
+    /*background-color: */
+     
+}
+@media all and (max-width: 968px) {
+    #boton{
+    font-family: verdana;
+    background-color: #0CB824;
+    margin-top: 570px;
+    margin-left: 80%;
+    font-style: italic;
+    font-size: 10px;
+    /*padding-top: 100px;*/
+    position: fixed;
+    -moz-border-radius:7px;
+    -webkit-border-radius:9px;
+}
+    .ventana{
+    background:rgb(217, 217, 228);
+    width: 65%;
+    height: 405px;
+    color: rgba(255,255,255,1);
+    font-size:16px;
+    text-align:center;
+    /*padding:33px;*/
+    min-height:250px;
+    border-radius:22px;
+    position: fixed;
+ /*   left:50%;
+    top:50%;*/
+    display:none;
+    /*margin-left: 100px;*/
+    margin-left: 35%;
+    margin-top: 105px;
+
+}
+}
